@@ -1,4 +1,13 @@
-Simple command line Python Program that will ask a user for a word
-they want the definition for. Program will search through a .json file
-to find a matching word and if exact word is not found utilizes a module
-from Difflib to recommend a word close to what was entered. 
+# English Thesaurus
+
+v1.0.0
+
+Simple command-line program for looking up definitions of a word
+
+Program reads through a large json file to retrieve the definition. 
+
+If word is not spelled correctly, it will use a get close matches function to determine the closest word to what was entered.
+
+### Tech Stack
+
+* Python

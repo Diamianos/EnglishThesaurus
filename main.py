@@ -64,5 +64,5 @@ def translate(word):
         return "Word not in data, please try again."
 
 
-word = input("Enter word: ")
+word = input("Enter word for definition: ")
 print(translate(word))
